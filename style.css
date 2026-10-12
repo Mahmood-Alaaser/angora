@@ -1,0 +1,26 @@
+.item {
+    width: 600px;
+    height: 500px;
+    border: 10px solid red;
+    position: relative;
+}
+
+.item::after {
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-color:#fff;
+    position: absolute;
+    top: 90%;
+    left: 30px;
+}
+
+.item::before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 90%;
+    right: 50px;
+    background-color:#fff;
+}
